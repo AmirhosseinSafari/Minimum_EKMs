@@ -3,7 +3,7 @@
 - [Electrocardiogram](#electrocardiogram)
 - [Electrocardiomatrices](#electrocardiomatrices)
 - [Efficient authentication based on ECMs](#efficient-authentication-based-on-ecms)
-- [Implementaions & Resulrs](#implementaions--results)
+- [Implementaions & Results](#implementaions--results)
 
 ## Biometric Authentication with ECG Signal
 
