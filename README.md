@@ -1,12 +1,19 @@
-**Biometric Authentication with ECG Signal**
+## Content
+- [Biometric Authentication with ECG Signal](#biometric-authentication-with-ecg-signal)
+- [Electrocardiogram](#electrocardiogram)
+- [Electrocardiomatrices](#electrocardiomatrices)
+- [Efficient authentication based on ECMs](#efficient-authentication-based-on-ecms)
+- [Implementaions & Resulrs](#implementaions--results)
+
+## Biometric Authentication with ECG Signal
 
 Biometric authentication uses unique biological traits for identity verification, offering enhanced security over traditional methods. ECG signal-based authentication leverages the unique electrical activity of the heart, with distinct features like heart rate and waveform shape, making it difficult to replicate. This method ensures high security and enables continuous authentication, providing ongoing user verification. ECG-based systems are ideal for applications such as mobile devices and healthcare, offering robust and reliable access control through the unique characteristics of an individual's ECG signal.
 
-**Electrocardiogram**
+## Electrocardiogram
 
 An Electrocardiogram (ECG) measures the heart's electrical activity, producing a waveform with distinct features. The QRST points represent key parts of the heart's cycle: Q (start of ventricular depolarization), R (the highest peak in the ECG, indicating the peak of ventricular depolarization), S (end of ventricular depolarization), and T (ventricular repolarization). The **R peak** is especially significant as it is the most prominent feature in the ECG, crucial for diagnosing heart conditions and useful for biometric authentication due to its unique pattern.
 
-**Electrocardiomatrices**
+## Electrocardiomatrices
 
 To create an authentication system, we utilized Electrocardiomatrices (ECMs or EKMs). ECMs are heatmaps of a matrix of ECG signals from a user, arranged in a specific manner. Below is an example of an ECM alignment:
 
@@ -26,11 +33,13 @@ You can find the implemetation of ECM at [bpf based implementaion of ECMs][2]
 
 [2]: https://github.com/AmirhosseinSafari/EKMs-creation/tree/master/bpf
 
-**Efficient authentication based on ECMs**
+## Efficient authentication based on ECMs
 
 Here, we implemented four different deep-learning methods for identification systems that utilize electrocardiomatrices (ECMs). The goal is to create a one-against-all system where the model can accurately identify users based on their ECMs. We tested the robustness of these models across various datasets, including MIT-BIH, NSRDB, and PTBDB, to ensure their applicability in different scenarios. This effort aims to revolutionize user identification by minimizing the number of ECMs required, reducing the burden on users and the system. In essence, we explored different scenarios with various learning models and heartbeat counts to understand their impact on ECM generation, which is crucial for efficient user identification. Additionally, we tested the identification models with different beats per frame (bpfs) rates, and the results confirm that fewer bpfs and ECMs lead to more efficient identification.
 
 ![Authentication models](./assets/learning_models.jpg)
+
+## Implementaions & Results
 
 You can access the implementation code at [Minimum ECMs for authentication][3] and also the plot of results at [plots of results][4]
 
