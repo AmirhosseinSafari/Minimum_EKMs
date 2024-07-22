@@ -17,13 +17,17 @@ An Electrocardiogram (ECG) measures the heart's electrical activity, producing a
 
 To create an authentication system, we utilized Electrocardiomatrices (ECMs or EKMs). ECMs are heatmaps of a matrix of ECG signals from a user, arranged in a specific manner. Below is an example of an ECM alignment:
 
-![Alignment of Rpeaks](./assets/Beats_alignment.png)
+<p align="center">
+  <img src="./assets/Beats_alignment.png" alt="Alignment of Rpeaks"/>
+</p>
 
 As shown, each row contains two Rpeaks, with the first Rpeak in each row (except the first row) being the last Rpeak of the previous row.
 
 ECMs have a hyperparaeter named beat per frame (bpf) which refers to number of heartbeats (Rpeaks) in each ECM. For example, ECM below is 10 bpf:
 
-![10 bpf ECM](./assets/10bpf_ECM_example.png)
+<p align="center">
+  <img src="./assets/10bpf_ECM_example.png" alt="10 bpf ECM"/>
+</p>
 
 For more details on ECM, refer to the [ELEKTRA: ELEKTRokardiomatrix application to biometric identification with convolutional neural networks][1].
 
@@ -37,7 +41,9 @@ You can find the implemetation of ECM at [bpf based implementaion of ECMs][2]
 
 Here, we implemented four different deep-learning methods for identification systems that utilize electrocardiomatrices (ECMs). The goal is to create a one-against-all system where the model can accurately identify users based on their ECMs. We tested the robustness of these models across various datasets, including MIT-BIH, NSRDB, and PTBDB, to ensure their applicability in different scenarios. This effort aims to revolutionize user identification by minimizing the number of ECMs required, reducing the burden on users and the system. In essence, we explored different scenarios with various learning models and heartbeat counts to understand their impact on ECM generation, which is crucial for efficient user identification. Additionally, we tested the identification models with different beats per frame (bpfs) rates, and the results confirm that fewer bpfs and ECMs lead to more efficient identification.
 
-![Authentication models](./assets/learning_models.jpg)
+<p align="center">
+  <img src="./assets/learning_models.jpg" alt="Authentication models"/>
+</p>
 
 ## Implementaions & Results
 
