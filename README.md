@@ -57,8 +57,12 @@ You can access the implementation code at [Minimum ECMs for authentication][3] a
 Additionally, you can find the results for four different models with 3, 5, 7, and 10 bpf, ranging from 5 to 70 ECMs. The results include accuracy, loss, AUC score, and AUPR metrics, and are organized in appropriately named folders for easy access.
 
 ## Cite us!
+Link of the paper, published at IEEE Xplore:
+
+https://ieeexplore.ieee.org/abstract/document/10874506
+
 ```
-  @INPROCEEDINGS{10874506,
+@INPROCEEDINGS{10874506,
     author={Safari, Amirhossein and Mokhtari, Narges and Hooshmand, Mohsen and Sadeghi, Sadegh and Pahlevani, Peyman},
     booktitle={2024 14th International Conference on Computer and Knowledge Engineering (ICCKE)}, 
     title={Evaluation of Efficient Electrocardiomatrix-Based Identification Using Deep Learning Methods}, 
