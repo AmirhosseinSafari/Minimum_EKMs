@@ -4,6 +4,7 @@
 - [Electrocardiomatrices](#electrocardiomatrices)
 - [Efficient authentication based on ECMs](#efficient-authentication-based-on-ecms)
 - [Implementaions & Results](#implementaions--results)
+- [Cite us](#cite-us)
 
 ## Biometric Authentication with ECG Signal
 
@@ -54,3 +55,17 @@ You can access the implementation code at [Minimum ECMs for authentication][3] a
 [4]: https://github.com/AmirhosseinSafari/Minimum_EKMs/blob/master/min%20EKM_final_results.ipynb
 
 Additionally, you can find the results for four different models with 3, 5, 7, and 10 bpf, ranging from 5 to 70 ECMs. The results include accuracy, loss, AUC score, and AUPR metrics, and are organized in appropriately named folders for easy access.
+
+## Cite us!
+```
+  @INPROCEEDINGS{10874506,
+    author={Safari, Amirhossein and Mokhtari, Narges and Hooshmand, Mohsen and Sadeghi, Sadegh and Pahlevani, Peyman},
+    booktitle={2024 14th International Conference on Computer and Knowledge Engineering (ICCKE)}, 
+    title={Evaluation of Efficient Electrocardiomatrix-Based Identification Using Deep Learning Methods}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={076-080},
+    keywords={Deep learning;Knowledge engineering;Databases;Convolution;Computational modeling;Biological system modeling;Electrocardiography;Data models;Long short term memory;Testing;User identification;Biometric systems;ECG;ECM;Deep learning},
+    doi={10.1109/ICCKE65377.2024.10874506}}
+```
