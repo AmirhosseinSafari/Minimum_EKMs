@@ -61,6 +61,8 @@ Link of the paper, published in IEEE Xplore:
 
 https://ieeexplore.ieee.org/abstract/document/10874506
 
+File of the paper: [Download PDF](./assets/Evaluation%20of%20Efficient%20Electrocardiomatrix-based%20Identification%20Using%20Deep%20Learning%20Methods.pdf)
+
 ```
 @INPROCEEDINGS{10874506,
     author={Safari, Amirhossein and Mokhtari, Narges and Hooshmand, Mohsen and Sadeghi, Sadegh and Pahlevani, Peyman},
